@@ -9,7 +9,7 @@ signal selected_char_index_changed(new_index: int)
 signal file_selected(texture_info: Dictionary)
 
 const MAX_CHAR_RESOLUTION: int = 256
-const MIN_CHAR_RESOLUTION: int = 8
+const MIN_CHAR_RESOLUTION: int = 5
 const MAX_ADVANCE_INFO_COUNT: int = 1025
 
 var current_char_atlas: AtlasTexture = null
